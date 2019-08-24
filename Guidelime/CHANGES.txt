@@ -1,0 +1,79 @@
+tag 4348fa05bd9cdae7d09535e566f6ec9cf2538516 v0.033-Beta
+Author:	max-ri <max_r_@web.de>
+Date:	Thu Aug 15 14:28:02 2019 +0200
+
+v0.033-Beta
+
+commit c7a43405e350719f58ea04803a737397d59a347a
+Author: max-ri <max_r_@web.de>
+Date:   Thu Aug 15 14:28:01 2019 +0200
+
+    v0.033-Beta
+
+commit 48836a05beeb44b239e8d55f8d03e10401715a6c
+Author: max-ri <max_r_@web.de>
+Date:   Thu Aug 15 14:26:31 2019 +0200
+
+    import: removed assumption that no part nr given equals part 1
+    
+    in some examples part nr is just missing even if it is not part 1
+
+commit a4d9a727785f36cb21ccf4769c87c555be85df50
+Author: max-ri <max_r_@web.de>
+Date:   Thu Aug 15 12:05:11 2019 +0200
+
+    bugfix: for quests that have multiple objectives of the same type do not show the same icon multiple times
+
+commit a4d9a727785f36cb21ccf4769c87c555be85df50
+Author: max-ri <max_r_@web.de>
+Date:   Thu Aug 15 12:05:11 2019 +0200
+
+    bugfix: for quests that have multiple objectives of the same type do not show the same icon multiple times
+
+commit 44df943008ae3159228b726387b0c2f3bf2d626e
+Author: max-ri <max_r_@web.de>
+Date:   Thu Aug 15 11:39:18 2019 +0200
+
+    bugfix: display correct line numbers when lines are wrapped
+
+commit 70e9cbf0f01f598f5f2ef05af8c341167e9e4256
+Author: max-ri <max_r_@web.de>
+Date:   Thu Aug 15 10:03:42 2019 +0200
+
+    bugfix: an errror occurs when a guide could not be loaded
+
+commit 9b37a7e2d922746c5ad36de049759f205766c82d
+Author: Borick <51713394+max-ri@users.noreply.github.com>
+Date:   Thu Aug 15 09:42:31 2019 +0200
+
+    installation instructions
+
+commit 1498a128599a274e78b8bc6eab14e372fa43f49d
+Author: max-ri <max_r_@web.de>
+Date:   Wed Aug 14 17:31:17 2019 +0200
+
+    bugfix: english quest names were not replaced with localized names as intended
+
+commit 6ba99d81d68cae86728d53679894205bd049e517
+Author: max-ri <max_r_@web.de>
+Date:   Wed Aug 14 16:03:29 2019 +0200
+
+    removed localized objectives from quests db file
+    
+    was redundant since saved in quests locales db file too
+
+commit b7ed150abc21a272e9b1612333b7a76e58eaf9b8
+Author: max-ri <max_r_@web.de>
+Date:   Wed Aug 14 15:54:37 2019 +0200
+
+    Update Localization.lua
+
+commit d09e444aa58e3a807dee25df00df974e285a548c
+Author: max-ri <max_r_@web.de>
+Date:   Wed Aug 14 15:41:28 2019 +0200
+
+    Update Localization.lua
+    
+    - added russian localization
+    - import: quest part > 9 was not detected
+
